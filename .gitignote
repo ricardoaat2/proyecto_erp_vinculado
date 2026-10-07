@@ -1,0 +1,20 @@
+.env
+.env.backup
+.env.production
+
+# Dependencias generadas
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Caché, logs y temporales del sistema
+storage/*.key
+.phpunit.result.cache
+*.log
+
+# Archivos de configuración del editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
